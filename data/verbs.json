@@ -1,0 +1,28 @@
+
+
+/*
+        Object format definition
+        "uniqueID": int,    a unique id for the verb to help detect collisions/duplicates
+        "verb": string,     the verb itself written in Russian
+        "type": int,        the conjugation type of the verb a value from 1 to 6, 7 being 
+                            irregular based on "The Big Silver Book of Russian Verbs" 
+                            ISBN: 0-07-146003-9
+        "aspect": int,      the aspect of the verb: imperfective 1
+                                                    perfective 2
+        "pair": string,     the name of the other verb of the perfective/imperfective pair
+        "pairID: int,       uniqueID of the perfective/imperfective paired verbq
+        "reflexive": int    verb has a reflexive variant or not         
+        ]
+*/
+
+[
+    {
+        "uniqueID": 1,
+        "verb": "",
+        "type": 1,
+        "class": 1,
+        "pair": "",
+        "pairID": 1,
+        "reflexive": 0
+    }
+]

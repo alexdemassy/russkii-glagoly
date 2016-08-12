@@ -1,7 +1,30 @@
+
+
 $font-stack:    Helvetica, sans-serif;
+$fw-normal:     400%;
+$fs-normal:     20px;
+$fstyle-normal: normal;
+$title-color: red;
 $primary-color: #333;
+$padding: 1px;
 
 body {
-  font: $font-stack;
+  text-align: center;
+  font-family: $font-stack;
   background-color: lightgreen;
+}
+
+.title {
+  font-size: 170%;
+  font-weight: 100%;
+  color: $title-color;
+}
+
+.search-box {
+  display: block;
+  width: 30%;
+  margin: 1em auto ;
+  padding: .5em $padding;
+  border: 1px solid #999;
+  font-size: 130%;
 }

@@ -17,12 +17,98 @@
 
 [
     {
-        "uniqueID": 1,
-        "verb": "",
+        "uniqueID": 1
+        "verb": "работать",
         "type": 1,
-        "class": 1,
-        "pair": "",
-        "pairID": 1,
-        "reflexive": 0
     }
+    {
+        "uniqueID": 2
+        "verb": "болеть",
+        "type": 1,
+    }
+    {
+        "uniqueID": 3
+        "verb": "дуть",
+        "type": 1,
+    }
+    {
+        "uniqueID": 4
+        "verb": "терять",
+        "type": 1,
+    }
+    {
+        "uniqueID": 5
+        "verb": "говорить",
+        "type": 2,
+    }
+    {
+        "uniqueID": 6
+        "verb": "видеть",
+        "type": 2,
+    }
+    {
+        "uniqueID": 7
+        "verb": "стоять",
+        "type": 2,
+    }
+    {
+        "uniqueID": 8
+        "verb": "молчать",
+        "type": 2,
+    }
+    {
+        "uniqueID": 9
+        "verb": "пахнуть",
+        "type": 3,
+    }
+    {
+        "uniqueID": 10
+        "verb": "надеяться",
+        "type": 3,
+    }
+    {
+        "uniqueID": 11
+        "verb": "ждать",
+        "type": 3,
+    }
+    {
+        "uniqueID": 12
+        "verb": "требовать",
+        "type": 4,
+    }
+    {
+        "uniqueID": 13
+        "verb": "воевать",
+        "type": 4,
+    }
+    {
+        "uniqueID": 14
+        "verb": "нести",
+        "type": 5,
+    }
+    {
+        "uniqueID": 15
+        "verb": "красть",
+        "type": 5,
+    }
+    {
+        "uniqueID": 16
+        "verb": "лезть",
+        "type": 5,
+    }
+    {
+        "uniqueID": 17
+        "verb": "печь",
+        "type": 6,
+    }
+    {
+        "uniqueID": 18
+        "verb": "стричь",
+        "type": 6,
+    }
+    {
+        "uniqueID": 19
+        "verb": "жечь",
+        "type": 6,
+    }    
 ]

@@ -1,14 +1,19 @@
 
+// General project constants
+runningPort = 8081;
+
 // General node modules
 const http = require('http');
+const path = require('path');
+
+// Load express.js
 const express = require('express');
+const app = express();
 
-// Project specific modules
-var hello = require('./js/hello.js');
+app.use(express.static(__dirname + '/public'));
 
-http.createServer((request, response) => {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Hello World");
-  hello.helloWorld();
-  response.end();
-}).listen(8081);
+app.listen(runningPort, function () {
+    console.log('Russkii Glagoly app listening on port' + runningPort);
+});
+
+
